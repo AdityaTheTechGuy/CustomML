@@ -1,5 +1,5 @@
 import numpy as np
-from src.base import BaseEstimator
+from .base import BaseEstimator
 
 class LinearRegression(BaseEstimator):
     def __init__(self, learning_rate: float = 0.01, n_iterations: int = 1000):

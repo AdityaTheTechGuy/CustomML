@@ -3,9 +3,7 @@ from sklearn.datasets import make_classification, make_regression
 from sklearn.linear_model import LogisticRegression as SklearnLogisticRegression
 from sklearn.linear_model import LinearRegression as SklearnLinearRegression
 
-# Core project imports using the updated package structure
-from src.linear_model import LinearRegression, LogisticRegression
-from src.utils import train_test_split, mean_squared_error, r2_score
+from src import LinearRegression, LogisticRegression, train_test_split, mean_squared_error, r2_score
 
 def benchmark_logistic_regression():
     print("="*50)
